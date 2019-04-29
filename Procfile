@@ -1,1 +1,1 @@
-web: gunicorn ch08_test.wsgi --log-file -
+web: gunicorn phone_model.wsgi --log-file -
