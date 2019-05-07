@@ -7,7 +7,7 @@
 <table>
 	<tr><td align=center><h3>{{ product.nickname }}</h3></td></tr>
 	<tr><td align=center>{{ product.description }}</td></tr>
-	<tr><td align=center>西元 { product.year }} 年出廠</td></tr>
+	<tr><td align=center>西元 {{ product.year }} 年出廠</td></tr>
 	<tr><td align=center>售價:NT${{ product.price }} 元</td></tr>
 	{% for image in images %}
 		{% if forloop.first %}
